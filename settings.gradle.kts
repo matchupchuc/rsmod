@@ -51,4 +51,5 @@ fun searchProject(parentName: String, root: Path, currentPath: Path) {
     include("$parentName:$projectName")
 }
 
-include("content:interfaces:world-map")
+include("plugins")
+include("plugins:world-map")

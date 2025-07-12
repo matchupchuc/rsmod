@@ -271,52 +271,16 @@ constructor(
     }
 
     private companion object {
-        private const val SERVICE_THREAD_NAME = "account-reader"
-
-        /**
-         * Soft cap for the number of account load requests that can be queued at once. Requests
-         * beyond this threshold will be rejected.
-         */
-        private const val MAX_REQUEST_SOFT_CAP = 2000
-
-        /**
-         * The time (in ms) to wait between each batch cycle when not under failure backoff. This
-         * defines the baseline processing intervals.
-         */
-        private const val DELAY_PER_BATCH = 250L
-
-        /** The maximum number of requests processed per service cycle ([run]). */
-        private const val REQUESTS_PER_BATCH = 50
-
-        /**
-         * The timeout (in ms) for read-only requests. These are expected to complete quickly, and
-         * timeouts help prevent stall buildup.
-         */
-        private const val REQUEST_READ_TIMEOUT_MS = 1000L
-
-        /**
-         * The timeout (in ms) for requests that involve database writes. These may be heavier, so a
-         * longer timeout is allowed.
-         */
-        private const val REQUEST_WRITE_TIMEOUT_MS = 5000L
-
-        /**
-         * The delay duration (in ms) when backing off due to consecutive failures. Gives external
-         * systems time to recover (e.g. Database under load).
-         */
-        private const val ERROR_BACKOFF_MS = 10_000L
-
-        /**
-         * The maximum number of consecutive batch failures before the service enters a backoff
-         * period.
-         *
-         * During backoff, the service delays each cycle using [ERROR_BACKOFF_MS]. This failure
-         * state persists until at least one batch is successfully processed.
-         *
-         * Callers of [queue] should check [isTemporarilyRejectingRequests] before queuing requests.
-         * This ensures that only a single request is processed during backoff, allowing the service
-         * to recover naturally once requests succeed again.
-         */
+        private const val MAX_REQUEST_SOFT_CAP = 50
+        private const val REQUESTS_PER_BATCH = 25
         private const val MAX_CONSECUTIVE_FAILURES = 5
+
+        private const val REQUEST_READ_TIMEOUT_MS = 10000L
+        private const val REQUEST_WRITE_TIMEOUT_MS = 10000L
+
+        private const val DELAY_PER_BATCH = 25L
+        private const val ERROR_BACKOFF_MS = 10000L
+
+        private const val SERVICE_THREAD_NAME = "account-loader"
     }
 }

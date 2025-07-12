@@ -61,6 +61,7 @@ public class Player(
     init {
         pendingFaceAngle = EntityFaceAngle.ZERO
         pendingSequence = EntitySeq.ZERO
+        avatar.parent = this
     }
 
     override val collisionStrategy: CollisionStrategy = CollisionStrategy.Normal
@@ -277,6 +278,8 @@ public class Player(
      */
     public var dropTrigger: DropTriggerType? = null
         private set
+
+    public var noclip: Boolean = false
 
     /**
      * Returns whether the player is eligible to be processed by the game loop.

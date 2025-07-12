@@ -16,8 +16,10 @@ import org.rsmod.api.player.vars.intVarBit
 import org.rsmod.api.player.vars.resyncVar
 import org.rsmod.api.script.advanced.onIfMoveSub
 import org.rsmod.api.script.advanced.onIfMoveTop
+import org.rsmod.api.script.onEvent
 import org.rsmod.api.script.onPlayerInit
 import org.rsmod.api.script.onPlayerSoftQueueWithArgs
+import org.rsmod.content.interfaces.gameframe.CloseWorldMapEvent
 import org.rsmod.content.interfaces.gameframe.Gameframe
 import org.rsmod.content.interfaces.gameframe.GameframeLoader
 import org.rsmod.content.interfaces.gameframe.GameframeMove
@@ -51,6 +53,7 @@ internal constructor(
         loadAll()
 
         onPlayerInit { player.openLoginGameframe() }
+        onEvent<CloseWorldMapEvent> { player.openLoginGameframe() }
 
         for ((topLevel, gameframe) in gameframes) {
             val type = interfaceTypes.getValue(topLevel)

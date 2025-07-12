@@ -5,9 +5,248 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ece70879-7e73-4ecd-a8f0-7aae8a40ff96" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/interfaces/world-map/src/main/kotlin/org.rsmod.content.interfaces.worldmap/WorldMap.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/interfaces/gameframe/src/main/kotlin/org/rsmod/content/interfaces/gameframe/script/WorldMapOrb.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.data/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/symbols/area.sym" beforeDir="false" afterPath="$PROJECT_DIR$/.data/symbols/area.sym" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/symbols/bas.sym" beforeDir="false" afterPath="$PROJECT_DIR$/.data/symbols/bas.sym" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/symbols/category.sym" beforeDir="false" afterPath="$PROJECT_DIR$/.data/symbols/category.sym" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/symbols/component.sym" beforeDir="false" afterPath="$PROJECT_DIR$/.data/symbols/component.sym" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/symbols/content.sym" beforeDir="false" afterPath="$PROJECT_DIR$/.data/symbols/content.sym" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/symbols/controller.sym" beforeDir="false" afterPath="$PROJECT_DIR$/.data/symbols/controller.sym" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/symbols/currency.sym" beforeDir="false" afterPath="$PROJECT_DIR$/.data/symbols/currency.sym" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/symbols/dbcol.sym" beforeDir="false" afterPath="$PROJECT_DIR$/.data/symbols/dbcol.sym" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/symbols/dbrow.sym" beforeDir="false" afterPath="$PROJECT_DIR$/.data/symbols/dbrow.sym" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/symbols/dbtable.sym" beforeDir="false" afterPath="$PROJECT_DIR$/.data/symbols/dbtable.sym" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/symbols/enum.sym" beforeDir="false" afterPath="$PROJECT_DIR$/.data/symbols/enum.sym" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/symbols/font.sym" beforeDir="false" afterPath="$PROJECT_DIR$/.data/symbols/font.sym" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/symbols/headbar.sym" beforeDir="false" afterPath="$PROJECT_DIR$/.data/symbols/headbar.sym" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/symbols/hitmark.sym" beforeDir="false" afterPath="$PROJECT_DIR$/.data/symbols/hitmark.sym" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/symbols/hunt.sym" beforeDir="false" afterPath="$PROJECT_DIR$/.data/symbols/hunt.sym" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/symbols/interface.sym" beforeDir="false" afterPath="$PROJECT_DIR$/.data/symbols/interface.sym" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/symbols/inv.sym" beforeDir="false" afterPath="$PROJECT_DIR$/.data/symbols/inv.sym" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/symbols/jingle.sym" beforeDir="false" afterPath="$PROJECT_DIR$/.data/symbols/jingle.sym" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/symbols/loc.sym" beforeDir="false" afterPath="$PROJECT_DIR$/.data/symbols/loc.sym" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/symbols/mesanim.sym" beforeDir="false" afterPath="$PROJECT_DIR$/.data/symbols/mesanim.sym" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/symbols/midi.sym" beforeDir="false" afterPath="$PROJECT_DIR$/.data/symbols/midi.sym" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/symbols/modlevel.sym" beforeDir="false" afterPath="$PROJECT_DIR$/.data/symbols/modlevel.sym" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/symbols/npc.sym" beforeDir="false" afterPath="$PROJECT_DIR$/.data/symbols/npc.sym" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/symbols/obj.sym" beforeDir="false" afterPath="$PROJECT_DIR$/.data/symbols/obj.sym" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/symbols/param.sym" beforeDir="false" afterPath="$PROJECT_DIR$/.data/symbols/param.sym" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/symbols/projanim.sym" beforeDir="false" afterPath="$PROJECT_DIR$/.data/symbols/projanim.sym" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/symbols/queue.sym" beforeDir="false" afterPath="$PROJECT_DIR$/.data/symbols/queue.sym" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/symbols/seq.sym" beforeDir="false" afterPath="$PROJECT_DIR$/.data/symbols/seq.sym" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/symbols/spotanim.sym" beforeDir="false" afterPath="$PROJECT_DIR$/.data/symbols/spotanim.sym" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/symbols/stat.sym" beforeDir="false" afterPath="$PROJECT_DIR$/.data/symbols/stat.sym" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/symbols/synth.sym" beforeDir="false" afterPath="$PROJECT_DIR$/.data/symbols/synth.sym" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/symbols/timer.sym" beforeDir="false" afterPath="$PROJECT_DIR$/.data/symbols/timer.sym" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/symbols/varbit.sym" beforeDir="false" afterPath="$PROJECT_DIR$/.data/symbols/varbit.sym" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/symbols/varcon.sym" beforeDir="false" afterPath="$PROJECT_DIR$/.data/symbols/varcon.sym" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/symbols/varn.sym" beforeDir="false" afterPath="$PROJECT_DIR$/.data/symbols/varn.sym" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/symbols/varobj.sym" beforeDir="false" afterPath="$PROJECT_DIR$/.data/symbols/varobj.sym" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/symbols/varp.sym" beforeDir="false" afterPath="$PROJECT_DIR$/.data/symbols/varp.sym" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.data/symbols/walktrigger.sym" beforeDir="false" afterPath="$PROJECT_DIR$/.data/symbols/walktrigger.sym" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/core-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/core-ci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/nightly-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/nightly-ci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/default_user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/default_user.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/rsmodInspections.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/rsmodInspections.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ktfmt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ktfmt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/GameServer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/GameServer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/rsmod__dependencyUpdates_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/rsmod__dependencyUpdates_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/rsmod__formatCode_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/rsmod__formatCode_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/rsmod__integrationTests_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/rsmod__integrationTests_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/rsmod__metaTests_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/rsmod__metaTests_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/rsmod__unitTests_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/rsmod__unitTests_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scopes/Integration_Tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scopes/Integration_Tests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scopes/RSMod_Classes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scopes/RSMod_Classes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/account/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/account/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/area-checker/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/area-checker/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/cache-enricher/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/cache-enricher/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/cache-enricher/src/main/resources/org/rsmod/api/cache/enricher/loc/locs.toml" beforeDir="false" afterPath="$PROJECT_DIR$/api/cache-enricher/src/main/resources/org/rsmod/api/cache/enricher/loc/locs.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/cache-enricher/src/main/resources/org/rsmod/api/cache/enricher/map/area/multiway.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/cache-enricher/src/main/resources/org/rsmod/api/cache/enricher/map/area/multiway.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/cache-enricher/src/main/resources/org/rsmod/api/cache/enricher/npc/npcs.toml" beforeDir="false" afterPath="$PROJECT_DIR$/api/cache-enricher/src/main/resources/org/rsmod/api/cache/enricher/npc/npcs.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/cache-enricher/src/main/resources/org/rsmod/api/cache/enricher/obj/objs.toml" beforeDir="false" afterPath="$PROJECT_DIR$/api/cache-enricher/src/main/resources/org/rsmod/api/cache/enricher/obj/objs.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/cache/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/cache/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/cheat/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/cheat/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/combat-accuracy/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/combat-accuracy/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/combat-maxhit/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/combat-maxhit/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/combat/combat-commons/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/combat/combat-commons/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/combat/combat-formulas/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/combat/combat-formulas/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/combat/combat-manager/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/combat/combat-manager/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/combat/combat-scripts/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/combat/combat-scripts/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/combat/combat-weapon/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/combat/combat-weapon/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/config/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/config/src/main/kotlin/org/rsmod/api/config/refs/BaseInterfaces.kt" beforeDir="false" afterPath="$PROJECT_DIR$/api/config/src/main/kotlin/org/rsmod/api/config/refs/BaseInterfaces.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/controller/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/controller/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/core/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/core/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/db-gateway/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/db-gateway/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/db/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/db/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/db/src/main/resources/db/migration/V1__init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/api/db/src/main/resources/db/migration/V1__init.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/db/src/main/resources/db/migration/V2__add_run_energy_to_characters.sql" beforeDir="false" afterPath="$PROJECT_DIR$/api/db/src/main/resources/db/migration/V2__add_run_energy_to_characters.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/db/src/main/resources/db/migration/V3__add_realm_config_columns.sql" beforeDir="false" afterPath="$PROJECT_DIR$/api/db/src/main/resources/db/migration/V3__add_realm_config_columns.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/db/src/main/resources/db/migration/V4__add_xp_rate_columns.sql" beforeDir="false" afterPath="$PROJECT_DIR$/api/db/src/main/resources/db/migration/V4__add_xp_rate_columns.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/db/src/main/resources/db/migration/V5__add_realms_broadcast_column.sql" beforeDir="false" afterPath="$PROJECT_DIR$/api/db/src/main/resources/db/migration/V5__add_realms_broadcast_column.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/db/src/main/resources/db/migration/V6__replace_accounts_mod_group_column.sql" beforeDir="false" afterPath="$PROJECT_DIR$/api/db/src/main/resources/db/migration/V6__replace_accounts_mod_group_column.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/death-plugin/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/death-plugin/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/death/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/death/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/game-process/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/game-process/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/game-process/src/main/kotlin/org/rsmod/api/game/process/player/PlayerMovementProcessor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/api/game-process/src/main/kotlin/org/rsmod/api/game/process/player/PlayerMovementProcessor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/hit-plugin/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/hit-plugin/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/hunt/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/hunt/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/inv-plugin/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/inv-plugin/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/inv-weight/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/inv-weight/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/invtx/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/invtx/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/market/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/market/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/meta/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/meta/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/music-plugin/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/music-plugin/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/music/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/music/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/net/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/net/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/npc-plugin/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/npc-plugin/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/npc/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/npc/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/obj-charges/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/obj-charges/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/obj-plugin/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/obj-plugin/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/parsers/jackson/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/parsers/jackson/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/parsers/json/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/parsers/json/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/parsers/toml/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/parsers/toml/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/player-output/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/player-output/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/player/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/player/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/plugin-commons/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/plugin-commons/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/pw-hash/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/pw-hash/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/random/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/random/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/realm-config/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/realm-config/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/realm/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/realm/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/registry/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/registry/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/repo/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/repo/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/route/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/route/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/route/src/main/kotlin/org/rsmod/api/route/RouteFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/api/route/src/main/kotlin/org/rsmod/api/route/RouteFactory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/script-advanced/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/script-advanced/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/script/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/script/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/server-config/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/server-config/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/shops/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/shops/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/specials/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/specials/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/spells-autocast/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/spells-autocast/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/spells-runes/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/spells-runes/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/spells/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/spells/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/stats-plugin/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/stats-plugin/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/stats/levelmod/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/stats/levelmod/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/stats/xpmod/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/stats/xpmod/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/testing/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/testing/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/testing/src/main/resources/META-INF/services/org.junit.jupiter.api.extension.Extension" beforeDir="false" afterPath="$PROJECT_DIR$/api/testing/src/main/resources/META-INF/services/org.junit.jupiter.api.extension.Extension" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/testing/test-assertions/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/testing/test-assertions/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/testing/test-capture/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/testing/test-capture/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/testing/test-factory/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/testing/test-factory/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/testing/test-params/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/testing/test-params/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/testing/test-random/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/testing/test-random/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/totp/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/totp/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/type/type-builders/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/type/type-builders/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/type/type-editors/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/type/type-editors/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/type/type-references/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/type/type-references/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/type/type-resolver/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/type/type-resolver/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/type/type-script-dsl/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/type/type-script-dsl/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/type/type-symbols/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/type/type-symbols/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/type/type-updater/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/type/type-updater/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/type/type-verifier/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/type/type-verifier/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/utils/utils-format/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/utils/utils-format/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/utils/utils-io/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/utils/utils-io/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/utils/utils-logging/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/utils/utils-logging/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/utils/utils-map/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/utils/utils-map/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/utils/utils-skills/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/utils/utils-skills/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/utils/utils-system/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/utils/utils-system/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/utils/utils-time/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/utils/utils-time/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/utils/utils-vars/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/utils/utils-vars/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/utils/utils-zone/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/utils/utils-zone/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/weapons/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/api/weapons/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-logic/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build-logic/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-logic/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build-logic/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-logic/src/main/kotlin/base-conventions.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build-logic/src/main/kotlin/base-conventions.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-logic/src/main/kotlin/benchmark-suite.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build-logic/src/main/kotlin/benchmark-suite.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-logic/src/main/kotlin/formatter-conventions.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build-logic/src/main/kotlin/formatter-conventions.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-logic/src/main/kotlin/integration-test-suite.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build-logic/src/main/kotlin/integration-test-suite.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-logic/src/main/kotlin/kotlin-conventions.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build-logic/src/main/kotlin/kotlin-conventions.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-logic/src/main/kotlin/meta-test-suite.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build-logic/src/main/kotlin/meta-test-suite.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-logic/src/main/kotlin/publish-conventions.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build-logic/src/main/kotlin/publish-conventions.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-logic/src/main/kotlin/test-conventions.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build-logic/src/main/kotlin/test-conventions.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/areas/city/lumbridge/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/content/areas/city/lumbridge/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/areas/city/lumbridge/src/main/resources/org/rsmod/content/areas/city/lumbridge/npcs.toml" beforeDir="false" afterPath="$PROJECT_DIR$/content/areas/city/lumbridge/src/main/resources/org/rsmod/content/areas/city/lumbridge/npcs.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/areas/city/lumbridge/src/main/resources/org/rsmod/content/areas/city/lumbridge/objs.toml" beforeDir="false" afterPath="$PROJECT_DIR$/content/areas/city/lumbridge/src/main/resources/org/rsmod/content/areas/city/lumbridge/objs.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/areas/misc/multiways/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/content/areas/misc/multiways/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/generic/generic-locs/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/content/generic/generic-locs/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/generic/generic-npcs/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/content/generic/generic-npcs/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/interfaces/bank/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/content/interfaces/bank/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/interfaces/combat-tab/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/content/interfaces/combat-tab/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/interfaces/emotes/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/content/interfaces/emotes/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/interfaces/equipment/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/content/interfaces/equipment/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/interfaces/fade-overlay/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/content/interfaces/fade-overlay/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/interfaces/gameframe/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/content/interfaces/gameframe/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/interfaces/gameframe/src/main/kotlin/org/rsmod/content/interfaces/gameframe/config/GameframeComponents.kt" beforeDir="false" afterPath="$PROJECT_DIR$/content/interfaces/gameframe/src/main/kotlin/org/rsmod/content/interfaces/gameframe/config/GameframeComponents.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/interfaces/journal-tab/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/content/interfaces/journal-tab/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/interfaces/logout-tab/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/content/interfaces/logout-tab/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/interfaces/menu/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/content/interfaces/menu/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/interfaces/prayer-tab/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/content/interfaces/prayer-tab/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/interfaces/settings/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/content/interfaces/settings/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/interfaces/skill-guides/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/content/interfaces/skill-guides/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/interfaces/world-map/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/interfaces/world-map/src/main/kotlin/org.rsmod.content.interfaces.worldmap/WorldMap.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/other/commands/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/content/other/commands/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/other/commands/src/main/kotlin/org/rsmod/content/other/commands/AdminCommands.kt" beforeDir="false" afterPath="$PROJECT_DIR$/content/other/commands/src/main/kotlin/org/rsmod/content/other/commands/AdminCommands.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/other/login/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/content/other/login/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/other/mapclock/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/content/other/mapclock/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/other/special-attacks/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/content/other/special-attacks/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/other/special-weapons/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/content/other/special-weapons/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/other/windmill/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/content/other/windmill/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/skills/cooking/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/content/skills/cooking/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/skills/fishing/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/content/skills/fishing/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/skills/magic/spell-attacks/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/content/skills/magic/spell-attacks/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/skills/woodcutting/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/content/skills/woodcutting/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/travel/canoe/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/content/travel/canoe/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/quirks.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/quirks.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/annotations/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/engine/annotations/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/coroutine/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/engine/coroutine/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/events/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/engine/events/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/game/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/engine/game/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/game/src/main/kotlin/org/rsmod/game/entity/Player.kt" beforeDir="false" afterPath="$PROJECT_DIR$/engine/game/src/main/kotlin/org/rsmod/game/entity/Player.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/game/src/main/kotlin/org/rsmod/game/entity/PlayerAvatar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/engine/game/src/main/kotlin/org/rsmod/game/entity/PlayerAvatar.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/interact/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/engine/interact/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/map/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/engine/map/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/module/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/engine/module/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/objtx/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/engine/objtx/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/plugin/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/engine/plugin/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/routefinder/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/engine/routefinder/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/routefinder/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/engine/routefinder/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/routefinder/src/test/resources/org/rsmod/routefinder/barb-village.json" beforeDir="false" afterPath="$PROJECT_DIR$/engine/routefinder/src/test/resources/org/rsmod/routefinder/barb-village.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/routefinder/src/test/resources/org/rsmod/routefinder/benchmarks/long-path.json" beforeDir="false" afterPath="$PROJECT_DIR$/engine/routefinder/src/test/resources/org/rsmod/routefinder/benchmarks/long-path.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/routefinder/src/test/resources/org/rsmod/routefinder/benchmarks/med-path.json" beforeDir="false" afterPath="$PROJECT_DIR$/engine/routefinder/src/test/resources/org/rsmod/routefinder/benchmarks/med-path.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/routefinder/src/test/resources/org/rsmod/routefinder/benchmarks/outofbound-path.json" beforeDir="false" afterPath="$PROJECT_DIR$/engine/routefinder/src/test/resources/org/rsmod/routefinder/benchmarks/outofbound-path.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/routefinder/src/test/resources/org/rsmod/routefinder/benchmarks/short-path.json" beforeDir="false" afterPath="$PROJECT_DIR$/engine/routefinder/src/test/resources/org/rsmod/routefinder/benchmarks/short-path.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/routefinder/src/test/resources/org/rsmod/routefinder/gnome-maze.json" beforeDir="false" afterPath="$PROJECT_DIR$/engine/routefinder/src/test/resources/org/rsmod/routefinder/gnome-maze.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/routefinder/src/test/resources/org/rsmod/routefinder/lumbridge.json" beforeDir="false" afterPath="$PROJECT_DIR$/engine/routefinder/src/test/resources/org/rsmod/routefinder/lumbridge.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/utils-bits/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/engine/utils-bits/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/utils-sorting/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/engine/utils-sorting/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/gradle-daemon-jvm.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/gradle-daemon-jvm.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/libs.versions.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/server/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/install/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/server/install/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/logging/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/server/logging/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/logging/src/main/resources/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/server/logging/src/main/resources/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/logging/src/main/resources/logback.advanced.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server/logging/src/main/resources/logback.advanced.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/logging/src/main/resources/logback.novice.xml" beforeDir="false" afterPath="$PROJECT_DIR$/server/logging/src/main/resources/logback.novice.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/services/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/server/services/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/shared/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/server/shared/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +268,15 @@
         <task path="$PROJECT_DIR$/server">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/content">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/content/worldmap">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/api">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -41,19 +289,6 @@
                 <item name="rsmod" type="f1a62948:ProjectNode" />
                 <item name="rsmod" type="2d1252cf:ModuleNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="rsmod" type="f1a62948:ProjectNode" />
-                <item name="rsmod" type="2d1252cf:ModuleNode" />
-                <item name="server" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="rsmod" type="f1a62948:ProjectNode" />
-                <item name="rsmod" type="2d1252cf:ModuleNode" />
-                <item name="server" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -61,15 +296,22 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "ffde005d"
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;ffde005d&quot;
+}</component>
   <component name="ProjectId" id="2zedJLp8up5T8lXQX0R4WFFzlLd" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -79,19 +321,98 @@
   "keyToString": {
     "Gradle.Build rsmod.executor": "Run",
     "Gradle.rsmod [dependencyUpdates].executor": "Run",
-    "Kotlin.GameServer.executor": "Debug",
+    "Gradle.rsmod:content [assemble].executor": "Run",
+    "Gradle.rsmod:content [build].executor": "Run",
+    "Kotlin.GameServer.executor": "Run",
+    "Python.manifest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/hayes/Documents/GitHub/rsmod",
     "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.GameServer" />
+  <component name="RunManager" selected="Kotlin.GameServer">
+    <configuration name="rsmod:content [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/content" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="assemble" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="rsmod:content [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/content" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="manifest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="rsmod" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.13" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manifest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.rsmod:content [build]" />
+        <item itemvalue="Gradle.rsmod:content [assemble]" />
+        <item itemvalue="Python.manifest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="ece70879-7e73-4ecd-a8f0-7aae8a40ff96" name="Changes" comment="" />
@@ -101,16 +422,5 @@
       <updated>1752095400220</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/content/interfaces/skill-guides/build.gradle.kts</url>
-          <line>1</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

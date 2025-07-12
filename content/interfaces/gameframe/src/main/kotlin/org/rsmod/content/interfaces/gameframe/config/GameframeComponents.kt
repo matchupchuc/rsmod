@@ -19,4 +19,8 @@ object GameframeComponents : ComponentReferences() {
     val toplevel_stone11 = find("toplevel_osrs_stretch:stone11", 38002678070908240)
     val toplevel_stone12 = find("toplevel_osrs_stretch:stone12", 1218428456710265090)
     val toplevel_stone13 = find("toplevel_osrs_stretch:stone13", 5984627446025016202)
+    val world_map_orb = find("orbs:worldmap", 1530381671028809295)
+    val worldmap_key_toggle = find("worldmap:key_toggle", 42235635919933773)
+    val worldmap_overview_toggle = find("worldmap:overview_toggle", 1050448064330846218)
+    val worldmap_close = find("worldmap:close", 8457258212355076169)
 }

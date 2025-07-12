@@ -44,6 +44,7 @@ object BaseInterfaces : InterfaceReferences() {
     val worldswitcher = find("worldswitcher", 770239458)
     val combat_interface = find("combat_interface", 1281353796)
     val hpbar_hud = find("hpbar_hud", 9223372036744970435)
+    // val world_map = find("world_map", 595L)
 
     val account_summary_sidepanel = find("account_summary_sidepanel", 1142196774)
     val area_task = find("area_task", 1628778927)

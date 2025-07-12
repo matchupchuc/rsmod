@@ -20,7 +20,6 @@
       <scope name="Integration Tests" level="ERROR" enabled="false" />
     </inspection_tool>
     <inspection_tool class="LongLine" enabled="true" level="WARNING" enabled_by_default="true" />
-    <inspection_tool class="LossyEncoding" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="ReassignedToPlainText" enabled="false" level="WARNING" enabled_by_default="false" />
   </profile>
 </component>

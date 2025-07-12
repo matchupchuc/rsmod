@@ -18,7 +18,9 @@ import org.rsmod.api.player.output.UpdateStat
 import org.rsmod.api.player.output.mes
 import org.rsmod.api.player.output.runClientScript
 import org.rsmod.api.player.startInvTransmit
+import org.rsmod.api.player.stat.PlayerSkillXP
 import org.rsmod.api.player.stat.stat
+import org.rsmod.api.player.vars.VarPlayerIntMapSetter
 import org.rsmod.api.player.vars.boolVarBit
 import org.rsmod.api.player.vars.resyncVar
 import org.rsmod.api.realm.Realm
@@ -87,6 +89,8 @@ constructor(
         client.write(VarpReset)
         chatboxUnlocked = displayName.isNotBlank()
         hideRoofs = true
+        VarPlayerIntMapSetter.set(this, varpTypes[1110] ?: error("Varp 1110 not found."), 0)
+        VarPlayerIntMapSetter.set(this, varpTypes[1568] ?: error("Varp 1568 not found."), 8)
         for (varp in transmitVars) {
             if (varp in vars) {
                 resyncVar(varp)
@@ -95,10 +99,15 @@ constructor(
     }
 
     private fun Player.sendLowPriority() {
+        runClientScript(1186)
+        runClientScript(4517, 0, 100, 50)
+        runClientScript(4518, 100, 100)
+        runClientScript(5224, PlayerSkillXP.calculateCombatLevel(this))
+
         sendInvs()
         runClientScript(2498, 1, 0, 0)
         resetCam()
-        runClientScript(828, 1)
+        runClientScript(828, 0)
         runClientScript(5141)
         sendPlayerOps()
         runClientScript(876, mapClock.cycle, 0, displayName, "REGULAR")

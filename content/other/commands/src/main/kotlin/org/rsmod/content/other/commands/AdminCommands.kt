@@ -106,6 +106,7 @@ constructor(
         }
         onCommand("reboot", "Reboots the game world, applying packed changes", ::reboot)
         onCommand("slowreboot", "Reboots the game world, with a timer", ::slowReboot)
+        onCommand("clipmode", "Toggle noclip mode", ::noclip)
     }
 
     private fun master(cheat: Cheat) = with(cheat) { player.setStatLevels(level = 99) }
@@ -317,6 +318,16 @@ constructor(
             val value = args[1].toInt()
             VarPlayerIntMapSetter.set(player, type, value)
             player.mes("Set varbit '${type.internalName}' to value: ${player.vars[type]}")
+        }
+
+    private fun noclip(cheat: Cheat) =
+        with(cheat) {
+            player.noclip = !player.noclip
+            if (player.noclip) {
+                player.mes("Noclip enabled. You can now walk through walls.")
+            } else {
+                player.mes("Noclip disabled. Collision is restored.")
+            }
         }
 
     @OptIn(InternalApi::class)

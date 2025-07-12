@@ -538,6 +538,7 @@
 1096	slayer_rewards_blocked
 1105	wilderness_statistics
 1107	option_attackpriority
+1110	worldmap_you_are_here_toggle
 1111	completed_clues
 1112	completed_clues1
 1113	elite_skill_challenges

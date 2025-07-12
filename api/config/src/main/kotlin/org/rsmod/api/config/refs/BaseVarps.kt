@@ -71,6 +71,9 @@ object BaseVarps : VarpReferences() {
     val map_clock = find("map_clock", 698878341)
     val date_vars = find("date_vars", 698424318)
 
+    // World map related varps
+    val worldmap_you_are_here_toggle = find("worldmap_you_are_here_toggle", 251952630)
+
     /* Server-side-only types */
     val music_playlist = find("music_playlist")
     val music_temp_state_3 = find("music_temp_state_3")

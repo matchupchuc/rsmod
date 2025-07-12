@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -130,7 +131,6 @@
             <option value="$PROJECT_DIR$/content/interfaces/prayer-tab" />
             <option value="$PROJECT_DIR$/content/interfaces/settings" />
             <option value="$PROJECT_DIR$/content/interfaces/skill-guides" />
-            <option value="$PROJECT_DIR$/content/interfaces/world-map" />
             <option value="$PROJECT_DIR$/content/other" />
             <option value="$PROJECT_DIR$/content/other/commands" />
             <option value="$PROJECT_DIR$/content/other/login" />
@@ -159,6 +159,8 @@
             <option value="$PROJECT_DIR$/engine/routefinder" />
             <option value="$PROJECT_DIR$/engine/utils-bits" />
             <option value="$PROJECT_DIR$/engine/utils-sorting" />
+            <option value="$PROJECT_DIR$/plugins" />
+            <option value="$PROJECT_DIR$/plugins/world-map" />
             <option value="$PROJECT_DIR$/server" />
             <option value="$PROJECT_DIR$/server/app" />
             <option value="$PROJECT_DIR$/server/install" />

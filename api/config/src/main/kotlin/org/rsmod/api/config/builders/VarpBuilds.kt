@@ -33,5 +33,8 @@ internal object VarpBuilds : VarpBuilder() {
         build("generic_temp_coords_65529") { temporary = true }
         build("inv_capacity_65530")
         build("generic_storage_65531")
+
+        // World map related varps
+        build("worldmap_you_are_here_toggle")
     }
 }

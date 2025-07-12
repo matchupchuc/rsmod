@@ -28,18 +28,31 @@ public class RouteFactory @Inject constructor(flags: CollisionFlagMap) {
         destination: CoordGrid,
         collision: CollisionStrategy = CollisionStrategy.Normal,
     ): Route =
-        with(routeFinder(async = true)) {
-            findRoute(
-                level = source.coords.level,
-                srcX = source.coords.x,
-                srcZ = source.coords.z,
-                destX = destination.x,
-                destZ = destination.z,
-                srcSize = source.size,
-                destWidth = 1,
-                destLength = 1,
-                collision = collision,
-            )
+        if (source is org.rsmod.game.entity.PlayerAvatar && source.parent?.noclip == true) {
+            // Direct path: walk in a straight line to the destination, ignoring collision
+            val path = mutableListOf<org.rsmod.routefinder.RouteCoordinates>()
+            var curr = source.coords
+            while (curr != destination) {
+                val dx = (destination.x - curr.x).coerceIn(-1, 1)
+                val dz = (destination.z - curr.z).coerceIn(-1, 1)
+                curr = curr.translate(dx, dz)
+                path += org.rsmod.routefinder.RouteCoordinates(curr.x, curr.z, curr.level)
+            }
+            org.rsmod.routefinder.Route(path, alternative = false, success = true)
+        } else {
+            with(routeFinder(async = true)) {
+                findRoute(
+                    level = source.coords.level,
+                    srcX = source.coords.x,
+                    srcZ = source.coords.z,
+                    destX = destination.x,
+                    destZ = destination.z,
+                    srcSize = source.size,
+                    destWidth = 1,
+                    destLength = 1,
+                    collision = collision,
+                )
+            }
         }
 
     public fun create(
